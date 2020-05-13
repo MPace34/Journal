@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>My Practice TEI File for ENGL 340</title>
+            <editor>Mitchell Pace</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Assignment for ENGL 340, SUNY Geneseo, Spring 2020</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Hungtington Library</repository>
+               <idno>HM 924</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Henry David Thoreau</author>
+                     <title>Walden</title>
+                  </msItem>
+               </msContents>
+            </msDesc>
+            <bibl>
+            A page from HM 924, the manuscript of Walden, "Higher Laws", 1a, Version E
+         </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <sourceDoc>
+      <surface xml:id="hm924v5n750">
+         <graphic url="https://cdm16003.contentdm.oclc.org/digital/iiif/p16003coll16/750/full/full/0/default.jpg"/>
+            <zone>
+               <note>First paragraph of "Higher Laws" from Version E</note>
+               <line>As I came home through</line>
+               <line>the woods with my string of fish,</line>
+               <line>trailing my pole <add place="above line"><handShift medium="pencil"/>along</add>, it being now quite</line>
+               <line>dark, I caught a glimpse of a wood-</line>
+               <line>chuck stealing across my path, and</line>
+               <line>felt a strange thrill as it were of</line>
+               <line>savage delight, and was strongly</line>
+               <line>tempted to seize and devour him</line> 
+               <line>raw. <add place="above line"><handShift medium="pencil"/>not that I was hungry but for that wildness which he represented.</add> The wildest scenes had become</line>
+               <line>unaccountably familiar to me.</line>
+               <line><add place="beside line"><handShift medium="pencil"/>Indeed</add> I find in myself, an instinct</line>
+               <line>toward a higher, what <del rend="strikethrough">is called</del> <del rend="strikethrough">you may call</del></line>
+               <line><add place="above line"><handShift medium="pencil"/>moral</add> life, <del rend="strikethrough">I use this word</del></line>
+               <line><del rend="strikethrough">with hesitation, because though</del></line>
+               <line><del rend="strikethrough">we have the idea, we have not</del></line>
+               <line><del rend="strikethrough">the reality,-</del> and <del rend="strikethrough">also</del> another</line>
+               <line>toward a primitive rank and</line>
+               <line>savage one, and I reverence</line>
+               <line>them both. <del rend="strikethrough">Some would say</del></line>
+               <line><del rend="strikethrough">that the one impulse was di-</del></line>
+               <line><del rend="strikethrough">rectly from God, the other through</del></line>
+               <line><del rend="strikethrough">nature.</del> I love the wild not</line>
+               <line>less than the good.</line>
+            </zone>
+         </surface>
+   </sourceDoc>
+</TEI>
